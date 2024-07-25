@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(135deg, #000000, #505050);
+    color: #333;
+}
+
+/* jarralax */
+.jarallax {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
